@@ -1,0 +1,5 @@
+Style/FloatDivision:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 100
