@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
+require_relative 'crud_mixin'
+
 # Class for dealing with student data.
 class Student
+  include Crud
   # @return [String] First name
   attr_accessor :first_name
   # @return [String] Last name
@@ -54,3 +57,6 @@ puts john.password
 
 john.last_name = 'Smith'
 puts john
+
+marcio.password = marcio.create_hash_digest(marcio.password)
+puts marcio.password
