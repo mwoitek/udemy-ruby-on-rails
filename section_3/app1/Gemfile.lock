@@ -87,6 +87,7 @@ GEM
     ffi (1.15.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    htmlbeautifier (1.3.1)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     io-console (0.5.9)
@@ -254,6 +255,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  htmlbeautifier
   irb
   jbuilder (~> 2.7)
   listen (~> 3.3)
