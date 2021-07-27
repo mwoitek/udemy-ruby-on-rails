@@ -40,9 +40,11 @@ end
 
 # Testing the class definition
 
+# @type [Student]
 marcio = Student.new('Marcio', 'Woitek', 'mwoitek', 'marcio.woitek@test.com', 'password12345')
 puts marcio
 
+# @type [Student]
 john = Student.new('John', 'Doe', 'john_doe', 'john.doe@aol.com', 'qwerty54321')
 puts john.first_name
 puts john.last_name
